@@ -1,0 +1,177 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 E:\MPLAB\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 E:\MPLAB\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 E:\MPLAB\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 E:\MPLAB\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 E:\MPLAB\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 E:\MPLAB\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 E:\MPLAB\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 E:\MPLAB\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 E:\MPLAB\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 E:\MPLAB\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 E:\MPLAB\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 E:\MPLAB\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 E:\MPLAB\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"21 F:\CURSO PIC\8.Pwm\pwm.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"40
+[v _pwm_init pwm_init `(v  1 e 1 0 ]
+"73
+[v _set_duty_cpp1 set_duty_cpp1 `(v  1 e 1 0 ]
+"78
+[v _set_duty_cpp2 set_duty_cpp2 `(v  1 e 1 0 ]
+"3847 E:/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"6242
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"6313
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"6327
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"6496
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7200
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S49 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7228
+[s S53 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S61 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S67 . 1 `S49 1 . 1 0 `S53 1 . 1 0 `S61 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES67  1 e 1 @4042 ]
+"7298
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7408
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"21 F:\CURSO PIC\8.Pwm\pwm.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"38
+} 0
+"78
+[v _set_duty_cpp2 set_duty_cpp2 `(v  1 e 1 0 ]
+{
+[v set_duty_cpp2@duty duty `f  1 p 4 60 ]
+"80
+} 0
+"73
+[v _set_duty_cpp1 set_duty_cpp1 `(v  1 e 1 0 ]
+{
+[v set_duty_cpp1@duty duty `f  1 p 4 60 ]
+"76
+} 0
+"10 E:\MPLAB\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 E:\MPLAB\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 59 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 58 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 50 ]
+"70
+} 0
+"8 E:\MPLAB\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S407 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S412 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S415 . 4 `l 1 i 4 0 `d 1 f 4 0 `S407 1 fAsBytes 4 0 `S412 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S415  1 a 4 44 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 38 ]
+[s S483 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S486 . 2 `s 1 i 2 0 `us 1 n 2 0 `S483 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S486  1 a 2 48 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 43 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 42 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 37 ]
+"8
+[v ___flmul@b b `d  1 p 4 25 ]
+[v ___flmul@a a `d  1 p 4 29 ]
+"205
+} 0
+"11 E:\MPLAB\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"40 F:\CURSO PIC\8.Pwm\pwm.X\main.c
+[v _pwm_init pwm_init `(v  1 e 1 0 ]
+{
+[v pwm_init@pwm1 pwm1 `a  1 a 1 wreg ]
+[v pwm_init@pwm1 pwm1 `a  1 a 1 wreg ]
+[v pwm_init@pwm2 pwm2 `a  1 p 1 0 ]
+"47
+[v pwm_init@pwm1 pwm1 `a  1 a 1 1 ]
+"71
+} 0
