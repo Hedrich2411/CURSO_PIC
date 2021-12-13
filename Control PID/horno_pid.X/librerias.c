@@ -1,4 +1,10 @@
 #include "librerias.h"
+#include "config.h"
+#include "reloj.h"
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdint.h>
+
 
 
 //////////////////////////////////////////////////////
