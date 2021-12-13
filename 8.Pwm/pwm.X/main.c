@@ -71,10 +71,10 @@ void pwm_init(bool pwm1, bool pwm2){
 }
 
 void set_duty_cpp1(float duty){
-    CCPR1L = (unsigned char)((PR2+1)*(duty/100)); 
+    CCPR1L = (unsigned char)((PR2)*(duty/100)); 
     
 }
 
 void set_duty_cpp2(float duty){
-    CCPR2L = (unsigned char)((PR2+1)*(duty/100)); 
+    CCPR2L = (unsigned char)((PR2)*(duty/100)); 
 }

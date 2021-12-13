@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+$C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -316,12 +316,12 @@ $dist/default/production\pwm.X.production.o
 739E text0 CODE >28:F:\CURSO PIC\8.Pwm\pwm.X\main.c
 73A8 text0 CODE >32:F:\CURSO PIC\8.Pwm\pwm.X\main.c
 73BC text0 CODE >33:F:\CURSO PIC\8.Pwm\pwm.X\main.c
-7390 cinit CODE >529:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
-7390 cinit CODE >531:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
-7390 cinit CODE >534:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
-7390 cinit CODE >540:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
-7390 cinit CODE >542:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
-7392 cinit CODE >543:C:\Users\Vland\AppData\Local\Temp\xcAsa58.s
+7390 cinit CODE >529:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
+7390 cinit CODE >531:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
+7390 cinit CODE >534:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
+7390 cinit CODE >540:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
+7390 cinit CODE >542:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
+7392 cinit CODE >543:C:\Users\Vland\AppData\Local\Temp\xcAs1d4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -340,13 +340,13 @@ __Hspace_1 43 0 ABS 0 - dist/default/production\pwm.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\pwm.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\pwm.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\pwm.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\pwm.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\pwm.X.production.o
 _TMR2 FCC 0 ABS 0 - dist/default/production\pwm.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+___sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 _main 7396 0 CODE 0 text0 dist/default/production\pwm.X.production.o
-start 0 0 CODE 0 init C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+start 0 0 CODE 0 init C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 ___flmul@aexp 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
 ___flmul@bexp 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
 ___flmul@prod 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
@@ -361,17 +361,17 @@ set_duty_cpp2@duty 3D 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.prod
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\pwm.X.production.o
 pwm_init@pwm1 2 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
 pwm_init@pwm2 1 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-intlevel0 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-intlevel1 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-intlevel2 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-intlevel3 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+__accesstop 60 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+intlevel0 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+intlevel1 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+intlevel2 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+intlevel3 0 0 CODE 0 text C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\pwm.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\pwm.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\pwm.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\pwm.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 _CCPR1L FBE 0 ABS 0 - dist/default/production\pwm.X.production.o
 _CCPR2L FBB 0 ABS 0 - dist/default/production\pwm.X.production.o
 __size_of_pwm_init 0 0 ABS 0 - dist/default/production\pwm.X.production.o
@@ -395,7 +395,7 @@ __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\pwm.X.production.o
 _pwm_init 74E8 0 CODE 0 text7 dist/default/production\pwm.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\pwm.X.production.o
 __end_of_pwm_init 7582 0 CODE 0 text7 dist/default/production\pwm.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+isa$xinst 0 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\pwm.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\pwm.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\pwm.X.production.o
@@ -423,7 +423,7 @@ __Htext7 0 0 ABS 0 text7 dist/default/production\pwm.X.production.o
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\pwm.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\pwm.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\pwm.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 _set_duty_cpp1 73D8 0 CODE 0 text2 dist/default/production\pwm.X.production.o
 _set_duty_cpp2 7460 0 CODE 0 text1 dist/default/production\pwm.X.production.o
 ___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
@@ -503,10 +503,10 @@ ___fldiv@grs 14 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production
 ___fldiv@rem D 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\pwm.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\pwm.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+isa$std 1 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 ___fldiv@new_exp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
-stacklo 60 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+stackhi 7FF 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
+stacklo 60 0 ABS 0 - C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\pwm.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\pwm.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\pwm.X.production.o
@@ -537,7 +537,7 @@ __ptext5 7BD6 0 CODE 0 text5 dist/default/production\pwm.X.production.o
 __ptext6 783C 0 CODE 0 text6 dist/default/production\pwm.X.production.o
 __ptext7 74E8 0 CODE 0 text7 dist/default/production\pwm.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\pwm.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\Vland\AppData\Local\Temp\xcAsa58.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\Vland\AppData\Local\Temp\xcAs1d4.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\pwm.X.production.o
 ?___xxtofl 1 0 COMRAM 1 cstackCOMRAM dist/default/production\pwm.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\pwm.X.production.o
