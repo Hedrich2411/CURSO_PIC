@@ -9,7 +9,6 @@
 //Oscilador 8MHz 
 
 
-void timer_ms_delay(uint16_t tiempo);
 void Timer_init(void);
 
 void main(void) {
@@ -21,10 +20,7 @@ void main(void) {
     Timer_init();
     while(1){
     
-        LATBbits.LATB0 = 1;
-        timer_ms_delay(1000);
-        LATBbits.LATB0 = 0;
-        timer_ms_delay(1000);
+        
     }
     
     
@@ -34,26 +30,40 @@ void main(void) {
 //Timer 0 
 
 void Timer_init(void){
-
-    T0CON	 = 0x42;
-    T0CONbits.TMR0ON = 0; //Timer apagado
-    TMR0L	 = 0x06;    //1 ms 
-    INTCONbits.TMR0IF = 0;
-
-  
+    
+    //Timer inicialmente apagado
+    T0CONbits.TMR0ON = 0; 
+    //Modo 16 bits
+    T0CONbits.T08BIT = 0;
+    //Modo temporizador
+    T0CONbits.T0CS = 0;
+    //Sin preescaler
+    T0CONbits.PSA = 1;
+    //Cargamos para 5ms
+    TMR0 = 0xD8F0;
+    //Habilita interrupciones de perifericos
+    INTCONbits.PEIE = 1;
+    //Habilita interrupciones globales
+    INTCONbits.GIE = 1;
+    //Habilitar interrupcion del timer 0
+    INTCONbits.TMR0IE = 1;
+    //Timer habilitado
+    T0CONbits.TMR0ON = 1;
+    
 }
 
-void timer_ms_delay(uint16_t tiempo){
-    
-    //Creamos una funcion para cualquier tiempo.
-    uint16_t n;
-    
-    for(n=1;n<=tiempo;n++){
-        LATBbits.LATB1 = ~LATBbits.LATB1;
-        T0CONbits.TMR0ON = 1;
-        while (INTCONbits.TMR0IF == 0){}
-        T0CONbits.TMR0ON = 0;
+void __interrupt() ISR(){
+
+    if(INTCONbits.TMR0IF == 1){
+        
+        LATBbits.LATB0 = ~ LATBbits.LATB0;
+        
+        TMR0 = 0xD8F0;
         INTCONbits.TMR0IF = 0;
-   
-        }
+        
+    }
+
+
 }
+
+
